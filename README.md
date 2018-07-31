@@ -1,4 +1,4 @@
-# mavan java项目骨架
+# maven java项目骨架
 
 ## 约定
 - 记得改build.properties中的数据库的配置
