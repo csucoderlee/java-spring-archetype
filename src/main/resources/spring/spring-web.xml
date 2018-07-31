@@ -52,4 +52,12 @@
         <property name="prefix" value="/"></property>
         <property name="suffix" value=".jsp"></property>
     </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/interceptor/test"/>
+
+            <bean class="org.csu.coderlee.interceptor.CustomInterceptor" />
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>
