@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
  * @author by bixi.lx
  * @created on 2018 07 31 11:15
  */
-@Controller("/interceptor")
+@Controller
+@RequestMapping("/interceptor")
 public class InterceptorTestController {
 
     @RequestMapping(value = "/test")
