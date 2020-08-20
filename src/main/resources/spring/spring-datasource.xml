@@ -10,7 +10,7 @@
                            http://mybatis.org/schema/mybatis-spring
                            http://mybatis.org/schema/mybatis-spring.xsd">
 
-    <context:property-placeholder location="classpath:build.properties"/>
+    <context:property-placeholder location="classpath:database.properties"/>
     <mybatis:scan base-package="org.csu.coderlee.dao"/>
 
     <!-- 慢sql监控-->
